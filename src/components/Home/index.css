@@ -1,0 +1,102 @@
+/* Write your CSS code here */
+.home-Main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-Main-container {
+    height: 100vh;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+.Home-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .Home-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.Home-container {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .Home-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.Home-image {
+  width: 180px;
+  height: 120px;
+}
+@media screen and (min-width: 768px) {
+  .Home-image {
+    display: none;
+  }
+}
+
+.Home-image2 {
+  width: 380px;
+  height: 320px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 768px) {
+  .Home-image2 {
+    display: none;
+  }
+}
+.home-heading {
+  font-size: 28px;
+  color: #1e293b;
+  font-weight: 600;
+  font-family: Roboto;
+}
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 32px;
+  }
+}
+
+.home-para {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+@media screen and (min-width: 768px) {
+  .home-para {
+    font-size: 14px;
+  }
+}
+.home-btn {
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 6px;
+  width: 120px;
+  height: 30px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+}
